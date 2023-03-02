@@ -253,6 +253,17 @@ img {
     line-height: 48px;
   }
 
+  .main-section {
+    flex-direction: column;
+    margin-left: 0;
+    padding: 20px;
+    
+  }
+
+  .main-section__text {
+    align-items: center;
+  }
+
   .main-section__desc {
     font-size: 14px;
     line-height: 24px;
@@ -366,9 +377,10 @@ img {
 
 @media (max-width: 576px) {
   .how-section {
-    padding: 0 40px;
+    padding: 0 20px;
     justify-content: center;
     text-align: center;
+    margin-bottom: 100px;
   }
 
   .how-section__list {
@@ -464,8 +476,20 @@ img {
   }
 }
 
+@media (max-width: 576px) {
+
+  .story-section {
+    
+    padding: 130px 30px 100px;
+  }
+
+  .review__title {
+    font-size: 28px;
+  }
+}
+
 .product-section {
-  max-width: 1200px;
+  max-width: 1400px;
   margin-inline: auto;
   display: flex;
   gap: 89px;
